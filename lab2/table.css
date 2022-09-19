@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td{
+    width: 80px;
+}
+
+tr{
+    height: 25px;
+}
+
+.first-row{
+    background-color: #118f8f;
+}
+
+.first-row:hover{
+    background-color: #A33C00;
+}
+
+.second-row{
+    background-color: #f5f511;
+}
+.second-row:hover{
+    background-color: #933AF0;
+}

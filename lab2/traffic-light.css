@@ -1,0 +1,62 @@
+.traffic-light-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.traffic-light{
+    height: 165px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.green-light{
+    background-color: green;
+}
+
+.yellow-light{
+    background-color: yellow;
+}
+
+
+.red-light{
+    background-color: red;
+}
+
+.circle-position{
+    left: 10px;
+}
+
+.green-light-position{
+    top: 10px;
+}
+
+.yellow-light-position{
+    top: 20px;
+}
+
+.red-light-position{
+    top: 30px;
+}
+
+.green-light-transform{
+    transform: translate(10px, 10px);
+}
+
+.yellow-light-transform{
+    transform: translate(10px, 20px);
+}
+
+.red-light-transform{
+    transform: translate(10px, 30px);
+}

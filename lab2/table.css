@@ -13,16 +13,16 @@ tr{
 }
 
 .first-row{
-    background-color: #118f8f;
+    background-color: #018f8f;
 }
 
 .first-row:hover{
-    background-color: #A33C00;
+    background-color: #A65221;
 }
 
 .second-row{
-    background-color: #f5f511;
+    background-color: #f5f501;
 }
 .second-row:hover{
-    background-color: #933AF0;
+    background-color: #5300A8;
 }

@@ -1,0 +1,71 @@
+body {
+    display: block;
+}
+
+.site {
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+.header {
+    height: 15%;
+    background-image: url(https://images.freeimages.com/images/large-previews/160/square-structure-1-1492321.jpg);
+}
+
+.footer {
+    height: 15%;
+    background-image: url(https://images.freeimages.com/images/large-previews/8ac/times-square-1433113.jpg);
+}
+
+.left-section {
+    background-color: brown;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.right-section {
+    background-color: yellow;
+    height: 70%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+.left-section-float {
+    float: left;
+}
+
+.right-section-float {
+    float: right;
+}
+
+.sections{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.site-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section-flex{
+    height: 100%;
+}
+
+.right-section-flex{
+    height: 100%;
+}

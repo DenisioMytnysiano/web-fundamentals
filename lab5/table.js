@@ -1,4 +1,4 @@
-const cellNumber = 1
+const cellNumber = 0
 const tableContainer = document.getElementById("table-task-container")
 const colorInput = document.getElementById("color-selector")
 

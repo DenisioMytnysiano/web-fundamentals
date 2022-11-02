@@ -1,0 +1,31 @@
+input {
+    width: 100%;
+}
+
+label {
+    color: #105254;
+}
+
+input[type="submit"] {
+    background-color: #105254;
+    color: #ddeff0;
+    border-radius: 5px;
+}
+
+#form-task-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.error {
+    border-color: #c41818;
+}
+
+.form-container {
+    height: 200px;
+    width: 400px;
+    background-color: #ddeff0;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 10px;
+}

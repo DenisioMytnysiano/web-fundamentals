@@ -1,0 +1,34 @@
+#download-button {
+    height: 50px;
+    width: 140px;
+    font-size: 14;
+    border-radius: 10px;
+    background-color: #364345;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+#people-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.people-image{
+    width: 100%;
+}
+
+.people-display {
+    width: 200px;
+    height: auto;
+    margin: 2px;
+    padding: 10px;
+    display: block;
+    background-color: #364345;
+    color: white;
+    border-radius: 10px;
+}

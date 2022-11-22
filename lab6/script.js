@@ -2,23 +2,15 @@ const usersCount = 3;
 const downloadButton = document.getElementById("download-button")
 const userContainer = document.getElementById("people-container")
 
-downloadButton.addEventListener("click", async () => await getUsers())
+downloadButton.addEventListener("click", () => getAndDisplayUsers())
 
-async function getUsers() {
-    const userData = await fetchData()
-    userData.forEach(user => {
+function getAndDisplayUsers() {
+    fetch(`https://randomuser.me/api/?results=${usersCount}`)
+    .then(response => response.json())
+    .then(data => { data.results.forEach(user => {
         displayUser(user)
-    });
-}
-
-async function fetchData() {
-    try {
-        var response = await fetch(`https://randomuser.me/api/?results=${usersCount}`)
-        var responseObject = await response.json()
-        return responseObject.results
-    } catch (ex) {
-        console.error(ex)
-    }
+    })})
+    .catch(ex => console.error(ex))
 }
 
 function displayUser(user) {

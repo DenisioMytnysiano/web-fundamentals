@@ -1,12 +1,15 @@
 import React from 'react';
+import Content from '../../components/profile/content';
+import Header from '../../components/profile/header';
 
 class Profile extends React.Component{
     
     render(){
         return (
-            <h1>
-                Profile page
-            </h1>
+            <div>
+                <Header text="Митник Денис Олександрович"/>
+                <Content />
+            </div>
         )
     }
 }

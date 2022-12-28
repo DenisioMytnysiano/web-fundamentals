@@ -41,4 +41,4 @@ class CatalogueService{
     }
 }
 
-export default CatalogueService;
+module.exports = CatalogueService;
